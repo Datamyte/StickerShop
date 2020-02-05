@@ -1,0 +1,209 @@
+ 
+
+header{
+  position:fixed;
+  top: 0;
+  width:100%;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee ;
+}
+@media(max-width:600px)
+{
+  header{
+
+      display:flex;
+      flex-direction:column;
+      margin:auto;
+      padding:auto;
+    }
+}
+ nav{
+  position:relative;
+  left:80px;
+  color:black;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+a{
+  text-decoration:none;
+  color:black;
+  font-size:20px;
+}
+a:hover{
+  color:red;
+}
+#header-img{
+  height:50px;
+  
+}
+#logo{   <!-- not necessary  -->
+  width:200px;
+  display:flex;
+  flex-direction:row;
+}
+.logo{
+  color:green;
+  width:250px;
+  display:flex;
+  postion:relative;
+  right:200px;
+  align-items: center;
+  justify-content: space-around;
+  
+  }
+#emailsection{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 60px;
+  width:100%;
+  background-color:pink;
+}
+ 
+
+#form{
+  display:flex
+  border-color:black;
+  style:solid;
+}
+h2{
+  color:red;
+  font-family:merienda;
+  
+}
+ 
+.row {
+  display: flex;
+   
+  padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+   
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.column:hover{
+  transform:scale(1.01);
+}
+input[type=email] {
+  border: 2px solid red;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+input[type=submit] {
+  border: 2px solid red;
+  border-radius: 4px;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}
+input[type=submit]:hover {
+  background-color: lightblue;
+}
+
+footer{
+  background-color:black;
+}
+ 
+#buy{
+  height:50px;
+  width:100%;
+  background-color:orange;
+  disply:flex;
+   
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  }
+#sale{
+  position:relative;
+  left:630px;
+  bottom:80px;
+  margin-top:0px;
+  height:53px;
+  width:180px;
+  background-color:GREEN;
+  
+ }
+p{
+  padding-top:10px;
+  font-size:20px;
+  font-family:merienda;
+  color:black;
+}
+
+#video{
+  position:relative;
+  margin-top:10px;
+  margin-left:60px;
+  disply:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+footer{
+  background-color:black;
+  height:50px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  text-align: center;
+}
+h3{
+  color:white;
+  position:relative;
+  left:200px;
+  text-align: center;
+  padding-top:5px;
+  padding-right:10px;
+}
+#useit{
+  display:flex;
+  flex-wrap:wrap;
+  color:red;
+  font-size:20px;
+  font-family:400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+
+   
+  
+}
+
+#use{
+ 
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  text-align: center;
+}
+  
+}
+  
+ 
+ 
